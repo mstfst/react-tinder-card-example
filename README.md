@@ -18,6 +18,6 @@ The prperties of each card's data are as follows:
 
 * `text` -- the text of the card
 * `leftText` -- text of the left button when the card is displyed
-* `leftCardID` == ID of the next card the user is shown when the left button is clicked
+* `leftCardID` -- ID of the next card the user is shown when the left button is clicked
 * `rightText` -- text of the right button when the card is displyed
-* `rightCardID` == ID of the next card the user is shown when the right button is clicked
+* `rightCardID` -- ID of the next card the user is shown when the right button is clicked
