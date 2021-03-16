@@ -4,7 +4,7 @@ A project demonstrating a prototype using [react-tinder-card](https://github.com
 
 ## Try the demo
 
-Try the demo on the gh-pages site [here!](https://mstfst.github.io/react-tinder-card-example/)
+Try thye demo on the gh-pages site [here!](https://mstfst.github.io/react-tinder-card-example/)
 
 ## The cards
 
