@@ -51,7 +51,8 @@ function BailReform() {
         rel="stylesheet"
       />
       <div className="cardContainer">
-        {Object.keys(cards).map((cardID, index) => (
+        {currentCardID ? 
+          Object.keys(cards).map((cardID, index) => (
           <TinderCard
             ref={childRefs[index]}
             preventSwipe={["up", "down"]}
@@ -68,11 +69,11 @@ function BailReform() {
               className="card"
             >
               <h3 style={{ whiteSpace: "pre-line" }}>
-                {currentCardID ? cards[currentCardID].text : null}
+                {cards[currentCardID].text}
               </h3>
             </div>
           </TinderCard>
-        ))}
+        )) : null}
       </div>
       {currentCardID ? 
         <div className="buttons">
@@ -90,6 +91,9 @@ function BailReform() {
               window.location.reload()
             }}>Try again</button>
           </div>
+          <div>
+            <a href="https://github.com/mstfst/react-tinder-card-example">See the GitHub repo.</a>
+            </div>
         </div>}
     </div>
   );
