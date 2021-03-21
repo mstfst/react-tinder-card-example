@@ -27,7 +27,7 @@ The prperties of each card's data are as follows:
 * `rightCardID` -- ID of the next card the user is shown when the right button is clicked
 
 ## Possible protype enahncements
-This prototype can be modified and enhanced in a number of ways, some of which include:
+This prototype can be modified and enhanced in a number of ways, which may include the following:
   * Show stats/facts after a user's experience -- like how it is done in video games made by [Telltale](https://telltale.com/)
   ![](./images/telltalestats.png)
   * Apply [Google Analytics](https://analytics.google.com/) data tracking on buttons to collect data on how users play the story, gaining insights on user behavior and attitudes
