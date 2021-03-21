@@ -4,7 +4,7 @@ A prototype telling an interactive story with a 'Tinder card' interface.
 
 This protoype uses [react-tinder-card](https://github.com/3DJakob/react-tinder-card).
 
-## Try the demo
+## Prototype demo
 
 Try the demo [here!](https://mstfst.github.io/react-tinder-card-example/)
 
