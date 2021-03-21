@@ -2,7 +2,7 @@
 
 A prototype telling an interactive story with a 'Tinder card' interface.
 
-![](./images/prototypess.png)
+![](./prototypess.png)
 
 This protoype uses [react-tinder-card](https://github.com/3DJakob/react-tinder-card).
 
@@ -29,7 +29,7 @@ The prperties of each card's data are as follows:
 ## Possible protype enahncements
 This prototype can be modified and enhanced in a number of ways, which may include the following:
   * Show stats/facts after a user's experience -- like how it is done in video games made by [Telltale](https://telltale.com/)
-  ![](./images/telltalestats.png)
+  ![](./telltalestats.png)
   * Apply [Google Analytics](https://analytics.google.com/) data tracking on buttons to collect data on how users play the story, gaining insights on user behavior and attitudes
   * Get card content from an external source such as [https://www.contentful.com/](Contentful)
 
