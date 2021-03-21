@@ -2,6 +2,8 @@
 
 A prototype telling an interactive story with a 'Tinder card' interface.
 
+![](./images/prototypess.png)
+
 This protoype uses [react-tinder-card](https://github.com/3DJakob/react-tinder-card).
 
 ## Prototype demo
@@ -23,3 +25,15 @@ The prperties of each card's data are as follows:
 * `leftCardID` -- ID of the next card the user is shown when the left button is clicked
 * `rightText` -- text of the right button when the card is displyed
 * `rightCardID` -- ID of the next card the user is shown when the right button is clicked
+
+## Possible protype enahncements
+This prototype can be modified and enhanced in a number of ways, some of which include:
+  * Show stats/facts after a user's experience -- like how it is done in video games made by [Telltale](https://telltale.com/)
+  ![](./images/telltalestats.png)
+  * Apply [Google Analytics](https://analytics.google.com/) data tracking on buttons to collect data on how users play the story, gaining insights on user behavior and attitudes
+  * Get card content from an external source such as [https://www.contentful.com/](Contentful)
+
+## Contact me
+Please feel free to contact me if you have any issues, comments, or questions.
+
+Thanks for trying the [prototype](https://mstfst.github.io/react-tinder-card-example/).
