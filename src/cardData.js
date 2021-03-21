@@ -34,7 +34,7 @@ export const cards = {
     
     One officer holds you at gunpoint and tells you freeze and put your hands up.`,
     leftText: 'Put your hands up',
-    leftCardID: 'police_arrive_comply',
+    leftCardID: 'police_arrest_comply',
     rightText: 'Run',
     rightCardID: 'police_arrest_run'
   },
