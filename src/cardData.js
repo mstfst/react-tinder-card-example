@@ -19,7 +19,7 @@ export const cards = {
 
     One officer goes in to arrest your friend for break and enter.
     
-    The other officer suspects you of being a "lookout" for for your friend.
+    The other officer suspects you of being a "lookout" for your friend.
     
     You are asked to freeze and put your hands up.`,
     leftText: 'Put your hands up',
@@ -28,15 +28,15 @@ export const cards = {
     rightCardID: 'police_arrest_run'
   },
   police_arrive_go_in: {
-    text: `The police officer chases after you, catches up to you, and violently takes you down.
+    text: `The police arrive.
 
-    You are arrested for break and enter and evading arrest.
+    They enter the store and find you and your friend inside.
     
-    You are taken into police custody.`,
-    leftText: 'Go into police custody',
-    leftCardID: null,
-    rightText: 'Go into police custody',
-    rightCardID: null
+    One officer holds you at gunpoint and tells you freeze and put your hands up.`,
+    leftText: 'Put your hands up',
+    leftCardID: 'police_arrive_comply',
+    rightText: 'Run',
+    rightCardID: 'police_arrest_run'
   },
   police_arrest_comply: {
     text: `The police officer arrests you for break and enter.
@@ -52,17 +52,12 @@ export const cards = {
   police_arrest_run: {
     text: `The police officer chases after you, catches up to you, and violently takes you down.
 
-    You are arrested for break and enter and evading arrest.`,
-    leftText: 'See what happens',
-    leftCardID: 'end',
-    rightText: 'Ask for a lawyer',
-    rightCardID: 'end'
-  },
-  end: {
-    text: `last card`,
-    leftText: 'Go to police custody',
+    You are arrested for break and enter and evading arrest.
+    
+    You are taken into police custody.`,
+    leftText: 'Go into police custody',
     leftCardID: null,
-    rightText: 'Go to police custody',
+    rightText:  'Go into police custody',
     rightCardID: null
   }
 };
