@@ -1,16 +1,18 @@
 # React Tinder Card Example
 
-A project demonstrating a prototype using [react-tinder-card](https://github.com/3DJakob/react-tinder-card) to implement a "tinder card" interface to tell a story. 
+A prototype telling an interactive story with a 'Tinder card' interface.
+
+This protoype uses [react-tinder-card](https://github.com/3DJakob/react-tinder-card).
 
 ## Try the demo
 
-Try thye demo on the gh-pages site [here!](https://mstfst.github.io/react-tinder-card-example/)
+Try the demo [here!](https://mstfst.github.io/react-tinder-card-example/)
 
-## The cards
+## Customize card content
 
-The sequence of cards that are shown in the demo are based on the contents of [./src/cardData.json](./src/cardData.json)
+In this prototype, card data is retrieved from <strong>./cardData.json</strong>
 
-Each key/value pair in this JSON file represents a card ID and its corresponding data.
+Each key/value pair in the object of cards represents a card ID and its corresponding data.
 
 The starting card should always have ID `start`.
 

@@ -1,6 +1,6 @@
 import React, { useState, useMemo} from "react";
 import TinderCard from "react-tinder-card";
-import { cards } from "../cardData";
+import { cards } from "./cardData";
 
 function BailReform() {
   const [currentCardID, setCurrentCardID] = useState("start");
@@ -77,12 +77,14 @@ function BailReform() {
       </div>
       {currentCardID ? 
         <div className="buttons">
-          <button onClick={() => swipe("left", currentCardIndex)}>
+          {cards[currentCardID].leftText ? 
+            <button onClick={() => swipe("left", currentCardIndex)}>
             {cards[currentCardID].leftText}
-          </button>
-          <button onClick={() => swipe("right", currentCardIndex)}>
+          </button> : null}
+          {cards[currentCardID].rightText ? 
+            <button onClick={() => swipe("right", currentCardIndex)}>
             {cards[currentCardID].rightText}
-          </button>
+          </button> : null}
         </div> : 
         <div className="treatedFairlySection"> 
           <p>Do you think you were treated fairly?</p>

@@ -46,7 +46,7 @@ export const cards = {
     The officer chooses to take you into police custody.`,
     leftText: 'Go into police custody',
     leftCardID: null,
-    rightText: 'Go into police custody',
+    rightText: null,
     rightCardID: null
   },
   police_arrest_run: {
@@ -57,7 +57,7 @@ export const cards = {
     You are taken into police custody.`,
     leftText: 'Go into police custody',
     leftCardID: null,
-    rightText:  'Go into police custody',
+    rightText:  null,
     rightCardID: null
   }
 };
