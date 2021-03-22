@@ -2,7 +2,7 @@
 
 A prototype telling an interactive story with a 'Tinder card' interface.
 
-![](./prototypess.png)
+![](./prototypescreen.png)
 
 This protoype uses [react-tinder-card](https://github.com/3DJakob/react-tinder-card).
 
