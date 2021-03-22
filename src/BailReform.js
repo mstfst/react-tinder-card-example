@@ -4,41 +4,25 @@ import { cards } from "./cardData";
 
 function BailReform() {
   const [currentCardID, setCurrentCardID] = useState("start");
-  const [lastDirection, setLastDirection] = useState()
+  // const [lastDirection, setLastDirection] = useState()
   const [beingSwiped, setBeingSwiped] = useState(false);
-  // const childRefs = useMemo(
-  //   () =>
-  //     Array(Object.keys(cards).length)
-  //       .fill(0)
-  //       .map((i) => React.createRef()),
-  //   []
-  // );
   const childRefs = useMemo(
     () => {
       let refs = {};
-      Object.keys(cards).map((key, index) => {
+      Object.keys(cards).forEach((key, index) => {
         refs[key] = {};
       })
       return refs;
     }, []
   );
-  // const [currentCardIndex, setCurrentCardIndex] = useState(
-  //   childRefs.length - 1
-  // );
 
   const swiped = (direction) => {
-    // console.log('inswped', direction)
     if (!beingSwiped) {
-      // console.log('was swiped')
-      // setLastDirection(direction);
       setBeingSwiped(true);
     }
   };
 
   const outOfFrame = (direction, cardID) => {
-    // console.log('out of frame ', direction, cardID)
-
-    // setCurrentCardIndex(index - 1);
     if (direction === "left") {
       setCurrentCardID(cards[cardID].leftCardID);
     } else if (direction === "right") {
@@ -48,13 +32,11 @@ function BailReform() {
   };
 
   const swipe = (dir, cardID) => {
-    // console.log('swiped ', dir, cardID)
     if (!beingSwiped) {
       setBeingSwiped(true)
       childRefs[cardID].current.swipe(dir); // Swipe the card!
     }
   };
-
 
   return (
     <div>
