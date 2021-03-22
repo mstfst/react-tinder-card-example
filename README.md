@@ -12,7 +12,7 @@ Try the demo [here!](https://mstfst.github.io/react-tinder-card-example/)
 
 ## Customize card content
 
-In this prototype, card data is retrieved from <strong>./cardData.json</strong>
+In this prototype, card data is stored in [./src/cardData.js](./src/cardData.js)
 
 Each key/value pair in the object of cards represents a card ID and its corresponding data.
 
